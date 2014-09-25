@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>Showcase</title>
+  <!-- build:css styles/app.css -->
+  <!-- inject:app:css -->
+  <!-- endinject -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+    <link rel="stylesheet" href="libraries/jquery-ui/themes/smoothness/jquery-ui.css" />
+  <link rel="stylesheet" href="libraries/ionic/release/css/ionic.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css({.tmp,app}) main.css -->
+  <link rel="stylesheet" href="main.css">
+  <!-- endbuild -->
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+</head>
+<body ng-app="app" animation="slide-left-right-ios7">
+<div ui-view></div>
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="libraries/angular/angular.js"></script>
+<script src="libraries/angular-animate/angular-animate.js"></script>
+<script src="libraries/angular-sanitize/angular-sanitize.js"></script>
+<script src="libraries/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="libraries/ionic/release/js/ionic.js"></script>
+<script src="libraries/ionic/release/js/ionic-angular.js"></script>
+<script src="libraries/lodash/dist/lodash.compat.js"></script>
+<script src="libraries/restangular/dist/restangular.js"></script>
+<script src="libraries/jquery/dist/jquery.min.js"></script>
+<script src="libraries/jquery-ui/jquery-ui.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({app,.tmp}) scripts/main.js -->
+<!-- inject:app:js -->
+<script src="js/app.js" charset="utf-8"></script>
+<!-- endinject -->
+<!-- inject:libs:js -->
+<!-- endinject -->
+<!-- inject:configs:js -->
+<script src="js/configs/backend.js" charset="utf-8"></script>
+<script src="js/configs/router.js" charset="utf-8"></script>
+<script src="js/configs/startup.js" charset="utf-8"></script>
+<!-- endinject -->
+<!-- inject:services:js -->
+<script src="js/services/current_footer.js" charset="utf-8"></script>
+<script src="js/services/current_header.js" charset="utf-8"></script>
+<script src="js/services/sao/myservice.js" charset="utf-8"></script>
+<!-- endinject -->
+<!-- inject:filters:js -->
+<script src="js/filters/myfilter.js" charset="utf-8"></script>
+<!-- endinject -->
+<!-- inject:directives:js -->
+<script src="js/directives/app_footer.js" charset="utf-8"></script>
+<script src="js/directives/app_header.js" charset="utf-8"></script>
+<script src="js/directives/datepicker.js" charset="utf-8"></script>
+<script src="js/directives/directives.js" charset="utf-8"></script>
+<!-- endinject -->
+<!-- inject:controllers:js -->
+<script src="js/controllers/home/index.js" charset="utf-8"></script>
+<!-- endinject -->
+<!-- endbuild -->
+
+</body>
+</html>
