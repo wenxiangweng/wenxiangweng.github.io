@@ -1,13 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Sep 2014 13:31:34 +0800</pubDate>
-    <lastBuildDate>Fri, 26 Sep 2014 13:31:34 +0800</lastBuildDate>
+    <title>Wenxiang&#39;s Main Page</title>
+    <description>Welcome to my main page.
+</description>
+    <link>http://wenxiangweng.github.io/</link>
+    <atom:link href="http://wenxiangweng.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 26 Sep 2014 15:10:27 +0800</pubDate>
+    <lastBuildDate>Fri, 26 Sep 2014 15:10:27 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>First Post!</title>
+        <description>&lt;h1 id=&quot;markdown&quot;&gt;Markdown&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://mouapp.com/Mou128.png&quot; alt=&quot;Mou icon&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Mou&lt;/strong&gt;, the missing Markdown editor for &lt;strong&gt;web developers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;syntax&quot;&gt;Syntax&lt;/h3&gt;
+
+&lt;h4 id=&quot;strong-and-emphasize&quot;&gt;Strong and Emphasize&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;strong&lt;/strong&gt; or &lt;strong&gt;strong&lt;/strong&gt; ( Cmd + B )&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;emphasize&lt;/em&gt; or &lt;em&gt;emphasize&lt;/em&gt; (Cmd + I )&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sometimes I want a lot of text to be bold.
+Like, seriously, a &lt;em&gt;LOT&lt;/em&gt; of text&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Right angle brackets &amp;gt; are used for block quotes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;links-and-email&quot;&gt;Links and Email&lt;/h4&gt;
+
+&lt;p&gt;An email &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#101;&amp;#120;&amp;#097;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#064;&amp;#101;&amp;#120;&amp;#097;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#101;&amp;#120;&amp;#097;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#064;&amp;#101;&amp;#120;&amp;#097;&amp;#109;&amp;#112;&amp;#108;&amp;#101;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt; link.&lt;/p&gt;
+
+&lt;p&gt;Simple inline link&lt;a href=&quot;http://chenluois.com&quot;&gt;http://chenluois.com&lt;/a&gt;, another inline link &lt;a href=&quot;http://smallerapp.com&quot;&gt;Smaller&lt;/a&gt;, on more link with title &lt;a href=&quot;http://resizesafari.com&quot; title=&quot;a Safari extension&quot;&gt;Resize&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;http://mouapp.com&quot; title=&quot;Mardown editor for Mac OS X&quot;&gt;reference style&lt;/a&gt; link. Input id, then anywhere in the doc, define the link with corresponding id:&lt;/p&gt;
+
+&lt;p&gt;[id]:http://mouapp.com “Mardown editor for Mac OS X”&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 26 Sep 2014 22:28:45 +0800</pubDate>
+        <link>http://wenxiangweng.github.io/single/post/2014/09/26/First-Post.html</link>
+        <guid isPermaLink="true">http://wenxiangweng.github.io/single/post/2014/09/26/First-Post.html</guid>
+        
+        
+        <category>single</category>
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 26 Sep 2014 22:25:45 +0800</pubDate>
+        <link>http://wenxiangweng.github.io/jekyll/update/2014/09/26/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://wenxiangweng.github.io/jekyll/update/2014/09/26/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
   </channel>
 </rss>
